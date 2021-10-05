@@ -18,6 +18,7 @@ var last_position_of_x, last_position_of_y;
         document.getElementById("myCanvas").width= screen.width-150;
         document.getElementById("myCanvas").height= screen.height-700;
         document.body.style.overflow= "hidden";
+     }
     
     
 
