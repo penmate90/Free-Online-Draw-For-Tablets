@@ -14,6 +14,8 @@ var last_position_of_x, last_position_of_y;
         document.getElementById("myCanvas").height= new_height;
         document.body.style.overflow= "hidden";
     }
+    
+    
 
     canvas.addEventListener("touchstart", touch_start);
     
