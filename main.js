@@ -68,7 +68,7 @@ var last_position_of_x, last_position_of_y;
         last_position_of_y = current_position_of_mouse_y;
         }
 
-function fillcanvas() { ctx.beginpath();
+function fillcanvas() { ctx.beginPath();
                       ctx.strokeStyle= color;
                       ctx.lineWidth = 10000px; 
                      ctx.stroke(); }
