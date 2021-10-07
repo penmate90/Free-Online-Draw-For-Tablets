@@ -70,7 +70,9 @@ var last_position_of_x, last_position_of_y;
 
 function fillcanvas() { ctx.beginPath();
                       ctx.strokeStyle= color;
-                      ctx.lineWidth = 10000px; 
+                      ctx.lineWidth = 10000px;
+                               ctx.lineTo(current_position_of_mouse_x, current_position_of_mouse_y);
+
                      ctx.stroke(); }
 
         function clear_canvas() {
