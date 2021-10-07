@@ -68,6 +68,11 @@ var last_position_of_x, last_position_of_y;
         last_position_of_y = current_position_of_mouse_y;
         }
 
+function fillcanvas() { ctx.beginpath();
+                      ctx.strokeStyle= color;
+                      ctx.lineWidth = 10000px; 
+                     ctx.stroke(); }
+
         function clear_canvas() {
             ctx.clearRect(0,0,new_width,new_height);
         }
