@@ -1,6 +1,6 @@
 var width = screen.width;
-var new_width= screen.width - 30;
-var new_height= screen.height - 360;
+var new_width= screen.width - 70;
+var new_height= screen.height - 260;
 var last_position_of_x, last_position_of_y;
 
     canvas = document.getElementById('myCanvas');
@@ -68,12 +68,10 @@ var last_position_of_x, last_position_of_y;
         last_position_of_y = current_position_of_mouse_y;
         }
 
-function fillcanvas() { ctx.beginPath();
-                      ctx.strokeStyle= color;
-                      ctx.lineWidth = 10000px;
-                               ctx.lineTo(current_position_of_mouse_x, current_position_of_mouse_y);
 
-                     ctx.stroke(); }
+                      
+                      
+          
 
         function clear_canvas() {
             ctx.clearRect(0,0,new_width,new_height);
