@@ -68,15 +68,8 @@ var last_position_of_x, last_position_of_y;
         last_position_of_y = current_position_of_mouse_y;
         }
 
-
-                      
-                      
-          
-
         function clear_canvas() {
             ctx.clearRect(0,0,new_width,new_height);
         }
 
-        
-    
 
