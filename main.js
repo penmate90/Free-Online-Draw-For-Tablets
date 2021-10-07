@@ -1,6 +1,6 @@
 var width = screen.width;
-var new_width= screen.width - 70;
-var new_height= screen.height - 310;
+var new_width= screen.width - 30;
+var new_height= screen.height - 360;
 var last_position_of_x, last_position_of_y;
 
     canvas = document.getElementById('myCanvas');
@@ -16,7 +16,7 @@ var last_position_of_x, last_position_of_y;
     }
      if (width>992) {
         document.getElementById("myCanvas").width= screen.width-150;
-        document.getElementById("myCanvas").height= screen.height-700;
+        document.getElementById("myCanvas").height= screen.height-300;
         document.body.style.overflow= "hidden";
      }
     
