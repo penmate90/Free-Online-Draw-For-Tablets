@@ -1,6 +1,6 @@
 var width = screen.width;
 var new_width= screen.width - 30;
-var new_height= screen.height - 710;
+var new_height= screen.height - 360;
 var last_position_of_x, last_position_of_y;
 
     canvas = document.getElementById('myCanvas');
